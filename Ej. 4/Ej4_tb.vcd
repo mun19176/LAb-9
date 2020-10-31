@@ -1,0 +1,66 @@
+$date
+	Fri Oct 30 19:14:04 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module Ej4 $end
+$var wire 4 ! OUT [3:0] $end
+$var reg 1 " ENABLE $end
+$var reg 4 # IN [3:0] $end
+$scope module U4 $end
+$var wire 1 $ ENABLE $end
+$var wire 4 % IN [3:0] $end
+$var wire 4 & OUT [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx &
+b0x %
+x$
+bx #
+x"
+bx !
+$end
+#5
+b0 !
+b0 &
+1$
+b1 #
+b0 %
+0"
+#6
+b1 !
+b1 &
+b1 %
+1"
+#16
+b0 !
+b0 &
+b0 %
+0"
+#21
+b101 #
+#26
+b1111 #
+#31
+b1 !
+b1 &
+b1 %
+1"
+#36
+b11 #
+#41
+bz !
+bz &
+0$
+b110 #
+#46
+b0 %
+0"
+#50
